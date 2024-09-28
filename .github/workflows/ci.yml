@@ -2,7 +2,7 @@ name: test
 on:
   push:
     branches:
-      - 2.13.x
+      - main
   pull_request:
 jobs:
   test:
@@ -15,7 +15,7 @@ jobs:
     - uses: actions/setup-java@v3
       with:
         distribution: temurin
-        java-version: 8
+        java-version: 23
     - name: Test
       # This runs the template with the default parameters, and runs test within the templated app.
       run: sbt -Dfile.encoding=UTF8 test
