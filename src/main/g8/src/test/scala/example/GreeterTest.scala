@@ -10,7 +10,7 @@ class GreeterTest extends AnyFlatSpec with Matchers {
     lazy val greeter = new Greeter(greetingMessage)
     lazy val personName = "John"
     lazy val person = Person(personName)
-    lazy val expectedGreeting = s"$greetingMessage $personName"
+    lazy val expectedGreeting = s"\$greetingMessage \$personName"
   }
 
   "greet" should "greet the person with the provided greeting" in new Fixture {

@@ -7,7 +7,7 @@ class Greeter(greeting: String) {
     if (n.isBlank) {
       throw new IllegalArgumentException("person name is blank")
     }
-    s"${greeting} ${person.name}"
+    s"\${greeting} \${person.name}"
   }
 
 }
