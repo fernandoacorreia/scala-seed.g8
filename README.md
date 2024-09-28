@@ -6,6 +6,7 @@ Forked from [scala/scala-seed.g8](https://github.com/scala/scala-seed.g8).
 
 - Use ScalaTest instead of MUnit.
 - Add Scalafmt configuration.
+- Updated sample code.
 
 ## Template usage
 
