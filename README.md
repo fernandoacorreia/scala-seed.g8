@@ -16,6 +16,13 @@ This is a [Giter8][g8] template for Scala 2.
 sbt new fernandoacorreia/scala-seed.g8
 ```
 
+## sbt tasks
+
+- console
+- run
+- scalafmtAll
+- test
+
 ## Looking for Scala 3 instead?
 
 That's over at https://github.com/scala/scala3.g8
